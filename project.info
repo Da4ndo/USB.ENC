@@ -1,0 +1,4 @@
+Title: usb.enc
+Version: 0.3.0
+Language: Python 3.10.0
+Target_Framework: Windows
