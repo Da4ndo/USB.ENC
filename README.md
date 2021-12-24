@@ -13,6 +13,7 @@ You can also add a password to the saved private key so it is very safe beacese 
 
 ## Usage
 
+`
 usage: usb.enc.exe [-h] [-g GENERATE_KEYS [GENERATE_KEYS ...]] [-e ENCRYPT [ENCRYPT ...]]
                    [-d DECRYPT [DECRYPT ...]] [-p PUBLIC_KEY [PUBLIC_KEY ...]]
 
@@ -28,3 +29,4 @@ options:
   -p PUBLIC_KEY [PUBLIC_KEY ...], --public-key PUBLIC_KEY [PUBLIC_KEY ...]
                         Get public key, if you lost it. eg.: -p "PubKeyDirectoryLoc"
                         "YOUR_PASSWORD(optional)"
+`
