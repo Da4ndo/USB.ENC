@@ -13,20 +13,22 @@ You can also add a password to the saved private key so it is very safe beacese 
 
 ## Usage
 
-`
-usage: usb.enc.exe [-h] [-g GENERATE_KEYS [GENERATE_KEYS ...]] [-e ENCRYPT [ENCRYPT ...]]
-                   [-d DECRYPT [DECRYPT ...]] [-p PUBLIC_KEY [PUBLIC_KEY ...]]
-
-options:
-  -h, --help            show this help message and exit
-  -g GENERATE_KEYS [GENERATE_KEYS ...], --generate-keys GENERATE_KEYS [GENERATE_KEYS ...]
-                        Save private key to a USB and public key somwhere you specify. eg.: -g
-                        "C:\asd\" "YOUR_PASSWORD(optional)"
-  -e ENCRYPT [ENCRYPT ...], --encrypt ENCRYPT [ENCRYPT ...]
-                        Encrypt file. eg.: "FileLoc" "PubKeyDirectoryLoc"
-  -d DECRYPT [DECRYPT ...], --decrypt DECRYPT [DECRYPT ...]
-                        Decrypt file. eg.: "FileLoc" "YOUR_PASSWORD(optional)"
-  -p PUBLIC_KEY [PUBLIC_KEY ...], --public-key PUBLIC_KEY [PUBLIC_KEY ...]
-                        Get public key, if you lost it. eg.: -p "PubKeyDirectoryLoc"
-                        "YOUR_PASSWORD(optional)"
-`
+> usage: usb.enc.exe [-h] [-g GENERATE_KEYS [GENERATE_KEYS ...]] [-e ENCRYPT [ENCRYPT ...]] [-d DECRYPT [DECRYPT ...]] [-p PUBLIC_KEY [PUBLIC_KEY ...]]
+> 
+> options:
+> 
+>   - -h, --help            show this help message and exit
+>   
+>   - -g GENERATE_KEYS [GENERATE_KEYS ...], --generate-keys GENERATE_KEYS [GENERATE_KEYS ...]
+>                         Save private key to a USB and public key somwhere you specify. eg.: -g
+>                         "C:\asd\" "YOUR_PASSWORD(optional)"
+>                         
+>   - -e ENCRYPT [ENCRYPT ...], --encrypt ENCRYPT [ENCRYPT ...]
+>                         Encrypt file. eg.: "FileLoc" "PubKeyDirectoryLoc"
+>                         
+>   - -d DECRYPT [DECRYPT ...], --decrypt DECRYPT [DECRYPT ...]
+>                         Decrypt file. eg.: "FileLoc" "YOUR_PASSWORD(optional)"
+>                         
+>   - -p PUBLIC_KEY [PUBLIC_KEY ...], --public-key PUBLIC_KEY [PUBLIC_KEY ...]
+>                         Get public key, if you lost it. eg.: -p "PubKeyDirectoryLoc"
+>                         "YOUR_PASSWORD(optional)"
