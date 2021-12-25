@@ -1,9 +1,9 @@
 __title__ = "usb.enc"
-__version__ = "0.3.0"
+__version__ = "1.0.0"
 
 __author__ = "Da4ndo"
 __discord__ = "Da4ndo#0934"
-__github__ = "https://github.com/Mesteri05"
+__github__ = "https://github.com/Da4ndo"
 __licence__ = "MIT"
 
 from cryptography.hazmat.backends import default_backend
@@ -147,7 +147,7 @@ class Cipher:
         
         with ZipFile(encrypted_filename.replace("{0}", "") + ".zip", 'w') as zip:
             for x in range(len(bytes_list)):
-                zip.write(encrypted_filename.replace("{0}", str(x + 1)))
+                zip.write(encrypted_filename.replace("{0}", str(x + 1)), arcname=os.path.basename(encrypted_filename).replace("{0}", str(x + 1)))
                 os.remove(encrypted_filename.replace("{0}", str(x + 1)))
 
         print("Finished. Encrypted file saved to", encrypted_filename.replace("{0}", "") + ".zip", "\n")
@@ -164,10 +164,10 @@ class Cipher:
                     output_bytes += base64.b64decode(Cipher.decrypt(private_key, f.read()))
                 
         enc_file_bytes = output_bytes.split(b"/0x34;")
-        with open(os.path.dirname(filename) + enc_file_bytes[0].decode().split(":")[1], "wb") as f:
+        with open(os.path.dirname(filename) + "/" + enc_file_bytes[0].decode().split(":")[1], "wb") as f:
             f.write(enc_file_bytes[-1])
         
-        print("Finished. Decrypted file saved to", os.path.dirname(filename) + enc_file_bytes[0].decode().split(":")[1], "\n")
+        print("Finished. Decrypted file saved to", os.path.dirname(filename) + "/" + enc_file_bytes[0].decode().split(":")[1], "\n")
 
 
 if __name__ == "__main__":
@@ -223,7 +223,7 @@ if __name__ == "__main__":
             options.encrypt = list(options.encrypt)
             public_key = Cipher.import_from_file(options.encrypt[1] + "public.key", Cipher.Type.PUBLIC_KEY)
 
-            new_file_name = os.path.dirname(str(options.encrypt[0]))
+            new_file_name = os.path.dirname(str(options.encrypt[0])) + "/"
             pp = os.path.basename(str(options.encrypt[0])).split(".")
             for x in pp:
                 if pp.index(x) + 1 != len(pp):

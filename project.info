@@ -1,4 +1,4 @@
 Title: usb.enc
-Version: 0.3.0
+Version: 1.0.0
 Language: Python 3.10.0
-Target_Framework: Windows
+Target_Framework: Windows   # But with a few chagnes it is possible to use on linux.
