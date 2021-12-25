@@ -1,6 +1,12 @@
-# USB.ENC 0.3.0
+[![GitHub release](https://img.shields.io/github/release/Mesteri05/USB.ENC)](https://GitHub.com/Mesteri05/USB.ENC/releases/)
+[![GitHub license](https://img.shields.io/github/license/Mesteri05/USB.ENC)](https://github.com/Mesteri05/USB.ENC/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Mesteri05/USB.ENC)](https://GitHub.com/Mesteri05/USB.ENC/issues/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Mesteri05/USB.ENC)
 
-Encrypt/Decrypt files with RSA encryption. It loads the private key from an USB which needs to be called "ENC_PRIVATE".
+# USB.ENC
+
+USB.ENC is an **open-source** crypter algorithm that use RSA encryption. It loads the private key from an USB which needs to be called "ENC_PRIVATE".
 You can share the public key and anybofy can encrypt files, but only you can decrypt it.
 And they can send their public key and you can encrypt files then send it to them.
 You can also add a password to the saved private key so it is very safe beacese it and you keep it separated in an USB.
