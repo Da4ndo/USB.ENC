@@ -6,10 +6,15 @@
 
 # USB.ENC
 
-**USB.ENC** is an ***open-source*** crypter algorithm that use *RSA encryption*. It loads the private key from an USB which needs to be called "ENC_PRIVATE".
-You can share the public key and anybofy can encrypt files, but only you can decrypt it.
-And they can send their public key and you can encrypt files then send it to them.
-You can also add a password to the saved private key so it is **very safe** because it and you keep it separated in an USB.
+**USB.ENC** is an ***open-source*** crypter algorithm that use *RSA encryption*. 
+
+## How does it work?
+
+ - **USB.ENC** loads the *private key* from an USB which needs to be called `ENC_PRIVATE`.
+ - You can also add a **password** to the *saved private key* so it is **very safe** because it and you keep it separated in an USB.
+ 
+> You can share your *public key* so anybody can **encrypt** files with it, but only you can **decrypt** it.
+> Then they send their *public key* and you **encrypt** files then you send the encrypted files back to them.
 
 ## CHANGELOG
 
