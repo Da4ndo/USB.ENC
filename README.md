@@ -16,7 +16,6 @@
 > You can share your *public key* so anybody can **encrypt** files with it, but only you can **decrypt** it.
 > Then they send their *public key* and you **encrypt** files then you send the encrypted files back to them.
 
-
 ![](https://github.com/Da4ndo/USB.ENC/images/encrypt.usb.enc.png)
 > How to encrypt file example 👆
 
@@ -58,5 +57,4 @@
 >                         Decrypt file. eg.: "FileLoc" "YOUR_PASSWORD(optional)"
 >                         
 >   - -p PUBLIC_KEY [PUBLIC_KEY ...], --public-key PUBLIC_KEY [PUBLIC_KEY ...]
->                         Get public key, if you lost it. eg.: -p "PubKeyDirectoryLoc"
->                         "YOUR_PASSWORD(optional)"
+>                         Get public key, if you lost it. eg.: -p "PubKeyDirectoryLoc" "YOUR_PASSWORD(optional)"
