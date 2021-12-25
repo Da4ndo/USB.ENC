@@ -16,10 +16,10 @@
 > You can share your *public key* so anybody can **encrypt** files with it, but only you can **decrypt** it.
 > Then they send their *public key* and you **encrypt** files then you send the encrypted files back to them.
 
-![](https://github.com/Da4ndo/USB.ENC/tree/main/images/encrypt.usb.enc.png)
+![](https://github.com/Da4ndo/USB.ENC/blob/main/images/encrypt.usb.enc.png)
 > How to encrypt file example 👆
 
-![](https://github.com/Da4ndo/USB.ENC/tree/main/images/encrypted_data.usb.enc.png)
+![](https://github.com/Da4ndo/USB.ENC/blob/main/images/encrypted_data.usb.enc.png)
 > How encrypted data zip looks like example 👆
 
 ## CHANGELOG
