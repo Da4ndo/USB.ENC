@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/release/Mesteri05/USB.ENC)](https://GitHub.com/Mesteri05/USB.ENC/releases/)
+[![GitHub release](https://img.shields.io/github/release/Mesteri05/USB.ENC)](https://gitHub.com/Mesteri05/USB.ENC/releases/)
 [![GitHub license](https://img.shields.io/github/license/Mesteri05/USB.ENC)](https://github.com/Mesteri05/USB.ENC/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/Mesteri05/USB.ENC)](https://GitHub.com/Mesteri05/USB.ENC/issues/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
