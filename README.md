@@ -6,15 +6,15 @@
 
 # USB.ENC
 
-**USB.ENC** is an ***open-source*** crypter algorithm that use *RSA encryption*. 
+**USB.ENC** is an ***open-source*** crypter algorithm that uses *RSA encryption*. 
 
 ## How does it work?
 
- - **USB.ENC** loads the *private key* from an USB which needs to be called `ENC_PRIVATE`.
- - You can also add a **password** to the *saved private key* so it is **very safe** because it and you keep it separated in an USB.
- 
-> You can share your *public key* so anybody can **encrypt** files with it, but only you can **decrypt** it.
-> Then they send their *public key* and you **encrypt** files then you send the encrypted files back to them.
+ - It loads the private key **from an USB** which needs to be called `ENC_PRIVATE`.
+ - You may also add a **password** to the *saved private key* to make it **more secure** because you store it separate in a USB.
+
+>[!TIP]
+> You can share your *public key* with others to encrypt files, but only you can decrypt them. Then they can send their *public key*, after which you can **encrypt** the data before sending them back.
 
 ![](https://github.com/Da4ndo/USB.ENC/blob/main/images/encrypt.usb.enc.png)
 > How to encrypt file example 👆
